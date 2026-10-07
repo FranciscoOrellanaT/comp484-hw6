@@ -1,0 +1,91 @@
+/* Color Palette
+# - #b3b3b3  Gray
+# - #006600  Green darker
+# - #f5f5dc  Beige
+# - #800000  Maroon
+# - #ffffff  White
+# - #000000  Black
+*/
+
+/* Global styles 
+------------------------------------*/
+html, body {
+	background: #800000;
+	margin: 0;
+}
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 1% 0.5% 1%;
+	background:  #e6e6e6;
+	line-height: 2;
+}
+p {
+	font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.resume-header {
+    background-color: #006600;
+    color: #000000;
+    padding: 10px;
+    font-weight: 600;
+}
+
+header h1, header h2 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    margin: 0;
+    font-weight: 600;
+}
+
+.flowRight {
+	float: right;
+}
+
+Section h2, Section h3 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    font-size: 1.2rem;
+    padding: 1% 1% 0;
+    font-weight: 600;
+
+}
+
+footer {
+    background-color: #006600;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer h2 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+h2.work-experience {
+    background-color: #333333;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 10px;
+}
+
+
+/* Education
+------------------------------------*/
+h2.education {
+    background-color: #b3b3b3;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 10px;
+}
+
