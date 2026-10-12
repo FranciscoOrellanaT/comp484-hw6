@@ -9,22 +9,10 @@
 
 /* Global styles 
 ------------------------------------*/
- html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-} 
-
 html, body {
 	background: #800000;
 	margin: 0;
 }
-
-body {
-margin-top: 0;
-}
-/*
 body {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 100%;
@@ -34,37 +22,14 @@ body {
     padding: 1% 0.5% 1%;
 	background:  #e6e6e6;
 	line-height: 2;
-}*/
-
+}
 p {
 	font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
 }
 
-.content-wrap {
-    max-width: 950px;
-   /* width: 950px;*/
-    margin: 0 auto;
-    padding: 50px;
-    overflow: hidden;
-}
-
-.column-narrow {
-    width: 30%;
-    float: left;
-    padding-right: 3%;
-    min-height: 175px;
-}
-
-.column-wide {
-    width: 70%;
-    float: left;
-    min-height: 225px;
-}
-
 /* Header & Footer 
 ------------------------------------*/
-
 .resume-header {
     background-color: #006600;
     color: #000000;
@@ -78,8 +43,8 @@ header h1, header h2 {
     font-weight: 600;
 }
 
-.profile-img {
-    border-radius: 50%;
+.flowRight {
+	float: right;
 }
 
 Section h2, Section h3 {
@@ -93,14 +58,9 @@ Section h2, Section h3 {
 footer {
     background-color: #006600;
     color: #000000;
-    /*padding: 5px;*/
+    padding: 5px;
     text-align: center;
     font-weight: 600;
-}
-
-.contact-info a {
-    padding: 5px;
-    display: inline-block;
 }
 
 footer h2 {
@@ -109,9 +69,6 @@ footer h2 {
     margin: 0;
 }
 
-h2{
-    margin-top: 0;
-}
 
 /* Work Experience
 ------------------------------------*/
