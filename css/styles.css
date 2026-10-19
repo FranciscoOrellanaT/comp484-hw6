@@ -10,18 +10,8 @@
 /* Global styles 
 ------------------------------------*/
 html, body {
-	background: #800000;
+	background:#b3b3b3;
 	margin: 0;
-}
-body {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 100%;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-    padding: 1% 0.5% 1%;
-	background:  #e6e6e6;
-	line-height: 2;
 }
 p {
 	font-family: 'Times New Roman', Times, serif;
